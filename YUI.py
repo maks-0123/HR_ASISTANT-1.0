@@ -192,20 +192,6 @@ async def save_feedback(message: types.Message, state: FSMContext):
     else:
         await message.answer("❌ Не удалось сохранить сообщение")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 async def set_comands(bot: Bot):
     await bot.set_my_commands(set_comand)
 
